@@ -2,11 +2,10 @@ import React from "react"
 import { graphql ,useStaticQuery} from "gatsby"
 
 import InfoBlock from "../components/Reuseable/Infoblock"
-import DualInfoBlock from "../components/Reuseable/DualInfoBlock"
-import TeamSection from "../components/About/TeamSection"
 import Layout from "../components/layout"
 import HeroSection from "../components/Reuseable/HeroSection"
 import SEO from "../components/seo"
+import Contact from "../components/contact/contact"
 
 const ContactPage = ({data}) =>{ 
 
@@ -20,6 +19,7 @@ const ContactPage = ({data}) =>{
       heroclass="about-background" 
     />  
     <InfoBlock heading = "How Can We help ? " />
+    <Contact />
   </Layout>
 )}
   

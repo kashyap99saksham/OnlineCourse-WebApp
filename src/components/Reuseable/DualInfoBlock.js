@@ -1,8 +1,9 @@
 import React from 'react'
 import Heading from "./Heading"
 import {Link} from 'gatsby'
+import pic from '../../images/team.jpg'
 
-export default function DualInfoBlock({heading,imgsrc}) {
+export default function DualInfoBlock({heading}) {
     return (
         <section className="my-4 py-4 bg-theme">
             <div className="container">
@@ -26,24 +27,16 @@ export default function DualInfoBlock({heading,imgsrc}) {
                     </div>
                     <div className="col-4">
                         <div class="card bg-dark" >
-                            <img src={imgsrc} class="card-img-top" alt="Card image cap" />
+                            <img src={pic} class="card-img-top  " alt="Card image cap" />
                             <div class="card-body">
                                 <h5 class="card-title text-success">Just Click Photos</h5>
                                 <p class="card-text text-white">
                                     I am Random Text Here I am Random Text Here
                                     I am Random Text Here I am Random Text Here
                                     I am Random Text Here I am Random Text Here
-                                    I am Random Text Here I am Random Text Here
-                                    I am Random Text Here I am Random Text Here
-                                    I am Random Text Here I am Random Text Here
-                                    I am Random Text Here I am Random Text Here
-                                    I am Random Text Here I am Random Text Here
-                                    I am Random Text Here I am Random Text Here
-                                    I am Random Text Here I am Random Text Here
-                                    I am Random Text Here I am Random Text Here
-                                    I am Random Text Here I am Random Text Here.
+                                    I am Random Text Here I am Random Text Here 
                                 </p>
-                                <Link to="/OurTeam/" class="btn btn-warning btn-block">{heading}> </Link>
+                                <Link to="/contact/" class="btn btn-warning btn-block">{heading} </Link>
                             </div>
                         </div>
                     </div>

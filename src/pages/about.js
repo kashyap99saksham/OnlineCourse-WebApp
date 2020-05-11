@@ -19,12 +19,12 @@ const IndexPage = ({data}) =>{
       subtitle=""
       heroclass="about-background" 
     />  
+    <InfoBlock heading = "About Our Vision" />
+    <TeamSection />
     <DualInfoBlock 
     heading = "Message From CEO" 
     imgsrc = "https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg?cs=srgb&dl=person-holding-node-text-1261427.jpg&fm=jpg" 
     />
-    <InfoBlock heading = "About Our Vision" />
-    <TeamSection />
   </Layout>
 )}
   
