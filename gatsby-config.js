@@ -1,5 +1,6 @@
 require("dotenv").config({
-  path:`.env.development`,
+  // path:`.env.development`,     //This is when we are fetching API's from locally 
+  path : `.env.${process.env.NODE_ENV}`     //This is when we host on netlify
 })
 
 module.exports = {
