@@ -35,7 +35,7 @@ export default class CourseCart extends Component {
                                                 data-item-id={node.id}
                                                 data-item-name={node.title} 
                                                 data-item-price={node.price}
-                                                data-item-url="https://google.com"
+                                                data-item-url="https://saksham-gatsby.netlify.app/"
                                                 data-item-image={node.image.fixed.src}
                                                 className="btn btn-warning snipcart-add-item" 
                                             > 
